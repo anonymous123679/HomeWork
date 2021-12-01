@@ -1,16 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-int L = 1;
+﻿
 int N;
-int kg;
+int kg = 0;
 Console.Write("Enter numbers: ");
 N = int.Parse(Console.ReadLine());
-for (kg = 9; kg > 0; L++)
-
+for (int i = 10; kg >= i; kg++)
 {
-    Console.WriteLine(N * L);
-    if (kg < L)
-    {
-        Console.ReadKey();
-        return;
-    }
-            
+    Console.WriteLine(N * kg);
+
+}
