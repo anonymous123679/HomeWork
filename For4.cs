@@ -1,10 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
-int L = 1;
+float L = 0.1f;
 int N;
-int kg;
 Console.Write("Enter numbers: ");
 N = int.Parse(Console.ReadLine());
-for (kg = 9; kg > 0; L++)
+for (float kg = 1f; kg > 0; L ++)
 
 {
     Console.WriteLine(N * L);
