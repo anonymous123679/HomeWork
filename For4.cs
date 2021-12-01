@@ -1,10 +1,9 @@
 ﻿
 int N;
-int kg = 0;
+int kg = 10;
 Console.Write("Enter numbers: ");
 N = int.Parse(Console.ReadLine());
-for (int i = 10; kg >= i; kg++)
+for (int i = 0; kg >= i; i++)
 {
-    Console.WriteLine(N * kg);
-
+    Console.WriteLine(N * i);
 }
